@@ -1,0 +1,24 @@
+simple-budget-dashboard/
+  svelte.config.js
+  src/
+    app.d.ts
+    hooks/
+      useRedux.ts
+    lib/
+      components/
+        Dashboard.svelte
+        EntryForm.svelte
+        EntryList.svelte
+        SpendingChart.svelte
+        SummaryPanel.svelte
+      recharts/
+        renderRecharts.tsx
+      store/
+        index.ts
+        slices/
+          budgetSlice.ts
+        selectors/
+          budgetSelectors.ts
+    routes/
+      +layout.svelte
+      +page.svelte
